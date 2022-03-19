@@ -26,7 +26,7 @@ export const ProductsProvider = ({ children }) => {
     dispatch({ type: SIDEBAR_OPEN });
   };
   const closeSidebar = () => {
-    dispatch({ type: SIDEBAR_OPEN });
+    dispatch({ type: SIDEBAR_CLOSE });
   };
 
   return (
